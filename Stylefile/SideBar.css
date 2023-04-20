@@ -1,0 +1,35 @@
+.leftSideBar{
+    background-color: white;
+position: fixed;
+top: 55px;
+left: 0;
+bottom: 0;
+width: 72px;
+
+z-index: 100;
+
+}
+
+.sideIcon{
+    /* width: 25px; */
+    height: 76px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+    
+}
+.sideIcon img{
+    height: 24px;
+}
+.sideIcon:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.sideBarText{
+    font-family: Roboto, arial;
+    font-size: 10px;
+    font-weight: 400;
+}

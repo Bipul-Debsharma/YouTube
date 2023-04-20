@@ -1,0 +1,42 @@
+
+.search-button, 
+.voice-search-button, 
+.uplode-continer,
+.youtube-app-continer,
+.notifications-bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-button .tooltips,
+.voice-search-button .tooltips,
+.uplode-continer .tooltips,
+.youtube-app-continer .tooltips,
+.notifications-bar .tooltips{
+position: absolute;
+background-color: rgb(109, 109, 109);
+color: white;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 2px;
+font-size: 12px;
+bottom: -30px;
+opacity: 0;
+transition: opacity 0.15s;
+pointer-events: none;
+white-space: nowrap;
+}
+
+.search-button:hover .tooltips,
+.voice-search-button:hover .tooltips,
+.uplode-continer:hover .tooltips,
+.youtube-app-continer:hover .tooltips,
+.notifications-bar:hover .tooltips
+{
+opacity: 1;
+}
